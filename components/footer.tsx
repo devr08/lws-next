@@ -28,17 +28,17 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6">
+              <a href="/privacu-policy" className="mr-4 hover:underline md:mr-6">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">
-                Licensing
+              <a href="/terms-of-services" className="mr-4 hover:underline md:mr-6 ">
+                Terms Of Service
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="https://wa.me/6281388029616" className="hover:underline">
                 Contact
               </a>
             </li>
