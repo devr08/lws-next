@@ -9,9 +9,8 @@ import {
 const SectionKeunggulanKami = () => {
   return (
     <section className="bg-secondary py-6 px-8">
-      <h1 className="text-center font-bold text-3xl max-w-lg mx-auto">
-        Keunggulan Kami yang Membuat Kami Menjadi{" "}
-        <span className="text-primary">Pilihan Utama</span>
+      <h1 className="text-center font-bold text-4xl max-w-xl mx-auto">
+        <span className="text-primary">Keunggulan Kami</span> yang Membuat Kami Menjadi Pilihan Utama
       </h1>
       <div className="flex items-center justify-between flex-row-reverse">
         <Image
@@ -19,9 +18,9 @@ const SectionKeunggulanKami = () => {
           alt="kenapa harus memilih pt lika wira sakti"
           height={600}
           width={1600}
-          className="w-96"
+          className="w-96 md:block hidden"
         />
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion type="single" collapsible className="w-full my-6 md:my-2">
           <AccordionItem value="item-1">
             <AccordionTrigger>Pengalaman dan Keahlian</AccordionTrigger>
             <AccordionContent>
